@@ -1,0 +1,105 @@
+<html>
+<head>
+	<link rel="icon" href="./23it.ico" sizes="32x32">
+</head>
+<body>
+<style>
+
+	@font-face {
+		font-family: Evolventa;
+		src: url(10359.ttf);
+	}
+
+	body {
+		font-family: evolventa;
+	}
+
+	.container1 {
+		display: flex;
+		align-items: center;
+		align-content: center;
+		flex-direction: column;
+	}
+	.container2 {
+		width: 700px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.it23 {
+		background: url('./23it.png') no-repeat;
+		background-size:100%;
+		width: 81px;
+		height: 81px;
+	}
+
+	.events-list {
+	}
+
+	.event-item {
+	}
+
+	.event-image {
+		width: 222px;
+		height: 222px;
+	}
+
+	.events-title {
+		border-bottom: 1px gainsboro solid;
+		padding: 10px;
+		font-size: 140%;
+	}
+
+	.subscribe-holder {
+		margin: 20px 0px;
+	}
+
+	.button {
+		 background: #f3f3f3;
+		 border: 1px solid #cccccc;
+		 border-radius: 3px;
+		 font-size: 90%;
+		 padding: 10px 17px;
+		 text-decoration: none;
+		 color: inherit;
+	 }
+</style>
+
+<div class="container1">
+	<div class="container2">
+		<div style="display: flex; align-items: center;">
+			<div class="it23"></div>
+			<div style="padding: 10px; font-size: 27px;">События и ИТ-мероприятия Краснодара</div>
+		</div>
+		<div style="display: flex; flex-direction: column; align-items: center; width: 80%; align-self: center; text-align: center; margin: 2em; font-size: 120%;">
+			<div>Подпишитесь на оповещения о мероприятиях и получайте все новости сообщества Краснодара </div>
+			<div class="subscribe-holder" style="display: flex;">
+				<a href="https://goo.gl/forms/VqFFEmvRSk7xBGdH3" class="button">Подписаться</a>
+			</div>
+			<div>Или подключайтесь к телеграм-каналу <a href="https://t.me/info23it">it23.info</a></div>
+		</div>
+
+		<div class="events-title">Мероприятия</div>
+		<div class="events-list">
+			<div class="event-item">
+				<div class="event-title">
+					FRONT to BACK and inside out.
+				</div>
+				<div class="event-image">
+					<img src="./event1.png">
+				</div>
+			</div>
+			<div style="line-height: 30px;">
+
+			</div>
+		</div>
+
+		<div class="events-title">
+			<button class="button" onclick="alert('Сайт убог, но он работает! Так что пиши в телеграм или на почту, если нажал на эту кнопку не просто так.');">Добавить мероприятие</button>
+		</div>
+
+		<div class="events-title">По любым вопросам: lawrentiy@gmail.com</div>
+	</div>
+</div>
+</body>
+</html>
